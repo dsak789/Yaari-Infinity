@@ -74,14 +74,14 @@ if(isset($_SESSION['userid'])){
     $status=$_SESSION['emailstatus'];
     if($status=="verified"){
 
-        header("Location:dashboard.php");
+        header("Location:dashboard/");
     }
     else{
         header("Location:emailverification.php");
     }
 }
 else{
-    header("Location:authentication.html");
+    header("Location:authentication/authentication.html");
 }
 
 
