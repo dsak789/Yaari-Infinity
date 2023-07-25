@@ -67,22 +67,22 @@ else{
 }
 
 // mysqli_query(mysqli_connect("localhost","root",""),"DROP DATABASE yaari_infinity");
-// session_start();
-// if(isset($_SESSION['userid'])){
-//     $id=$_SESSION['userid'];
-//     $name=$_SESSION['name'];
-//     $status=$_SESSION['emailstatus'];
-//     if($status=="verified"){
+session_start();
+if(isset($_SESSION['userid'])){
+    $id=$_SESSION['userid'];
+    $name=$_SESSION['name'];
+    $status=$_SESSION['emailstatus'];
+    if($status=="verified"){
 
-//         header("Location:dashboard.php");
-//     }
-//     else{
-//         header("Location:emailverification.php");
-//     }
-// }
-// else{
-//     header("Location:authentication.html");
-// }
+        header("Location:dashboard/");
+    }
+    else{
+        header("Location:emailverification.php");
+    }
+}
+else{
+    header("Location:authentication/authentication.html");
+}
 
 
 ?>
