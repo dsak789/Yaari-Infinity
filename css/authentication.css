@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: url("../images/sunset_coco.jpg"),linear-gradient(to top right,rgb(255, 0, 0),rgba(243, 243, 11, 0.704),rgb(5, 230, 35)); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.logoname{
+   color: rgb(221, 255, 4);
+   text-align: center;
+   font-size: 45px; 
+   /* background-image: linear-gradient(to top right,orange,rgba(76, 211, 27, 0.704),yellow); */
+   /* width: fit-content; */
+   height: fit-content;
+   padding: 10px;
+   border :5px solid;
+   border-radius: 15px;
+   margin: 07%;
+   margin-bottom: 20px;
+   letter-spacing: 20px;
+}
+.logoname::first-letter{
+    color: red;
+    font-size: 100px;
+}
+
+#links{
+    cursor: pointer;
+    align-items: center;
+    background-color: rgba(63, 69, 69, 0.541);
+    text-align: center;
+    padding: 9px;
+    margin: 05%;
+    border-radius: 15px;
+}
+a{
+    color: rgb(5, 7, 8);
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 15px;
+    border-color: rgba(171, 112, 8, 0.975);
+    background-image: linear-gradient(to top left,rgb(33, 151, 172),rgb(79, 134, 79));
+}
+h1{
+    padding: 15px;
+}

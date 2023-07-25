@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right top,rgb(247, 166, 3),rgb(120, 20, 20),rgb(0, 0, 198));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-y: auto;
+    max-height: max-content;
+}
+/* #nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(26, 25, 25, 0.406)
+}
+.divlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;  
+}
+#logo{
+    height: 50px;
+    width: 50px;
+}
+#loggedas{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+    padding: 10px;  
+    border-radius: 50%;
+    color: rgba(4, 202, 216, 0.724);
+
+}
+#loggedas img{
+    border-radius: 50px;
+    border-color: 10 solid aqua;
+}
+#link{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 15px;
+    margin-left: auto;
+}
+#link a{
+    padding: 15px;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:550;
+    border: 2px dashed burlywood;
+    background-color: rgb(169, 192, 42);
+    text-decoration: none;
+    border-radius: 50px;
+    width: max-content;
+} */
+#profiledetails{
+    background-color: rgba(29, 116, 193, 0.365);
+    min-height: fit-content;
+    padding: 15px;
+    margin-top: 0%;
+    margin: 2% 20% 7% 20%;
+    border-radius: 15px;
+}
+.dp{
+    text-align: center;
+    height: max-content;
+    font-size: 40px;
+}
+#profilepic{
+    align-items: center;
+    border-color: rgb(3, 41, 67);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+ul{
+    text-align: center;
+    font-size: 30px;
+    color: #b4b5e7;
+}
+.details li,.education li{
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    color:rgb(7, 15, 23);
+    background-color: #594e4e58;
+    border-radius: 15px;
+    font-size: large;
+    list-style-type: none;
+    padding: 15px;
+}
+#opt{
+    margin: 5% 30% 2% 30%;
+    background-color: #594e4e;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 150px;
+}
+span{
+    margin: 15%;
+    /* color: #192c2c; */
+}
+button{
+    font-size: 15px;
+    cursor: pointer;
+    height: auto;
+    border: none;
+    border-radius: 25px;
+    padding: 7px;
+    margin: 1px 25px ;
+}
+
+#disclaimer {
+    text-align: center;
+    font-size: 14px;
+    color: #080808;
+    padding: 9px;
+    padding-left: 50px;
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    /*min-width: 100%;*/
+    min-width: 2560px;
+    /*width: 100%;*/
+}
+
+
+
+@media (min-width:200px) and (max-width : 700px){
+    .main{
+        max-width: 100%;
+        min-height: 100%;
+    }
+
+    .main #profiledetails{
+        /* max-width: 400px; */
+        margin: 7% 7% 20% 7%;
+        /* background-color: #000000; */
+    }
+    .dp{
+        max-height: fit-content;
+        font-size: x-large;
+    }
+    .dp #profilepic{
+        height: 150px;
+        width: 150px;
+    }
+    
+    #opt{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-radius: 10px;
+        color: #080808;
+        background-color: #0f0f0f65;
+        /* margin: 1% 15% 1% 15%; */
+        margin: 0;
+    }
+    button{
+        font-size: 10px;
+        cursor: pointer;
+        height: auto;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 1px 1px ;
+    }
+    
+}

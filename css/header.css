@@ -1,0 +1,271 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right top,rgb(247, 166, 3),rgb(120, 20, 20),rgb(0, 0, 198));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-y: auto;
+    max-height: max-content;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(26, 25, 25, 0.418);
+    position:sticky;
+    top: 1px;
+}
+.divlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px; 
+    gap: 12px; 
+    border: 0px solid wheat;
+    border-radius: 15px;
+}
+.divlogo h3{
+    color: darkorange;
+    font-family:cursive,fantasy,monospace,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.divlogo img{
+    border-radius: 2px;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+}
+#loggedas{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+    padding: 10px;  
+    border-radius: 50%;
+    color: rgba(4, 202, 216, 0.724);
+    
+}
+#loggedas img{
+    padding: 1px;
+    border-radius: 50px;
+    border-color: 5px dashed rgb(0, 0, 0);
+}
+#link{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 15px;
+    margin-left: auto;
+}
+#link a{
+    padding: 15px;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:550;
+    border: 2px dashed burlywood;
+    background-color: rgb(169, 192, 42);
+    text-decoration: none;
+    border-radius: 50px;
+    width: max-content;
+} */
+
+
+
+/* Hearder Css */
+/* Logo Design CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    color: rgb(215, 185, 15);
+    background-color: rgb(102, 102, 102)
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    margin: 1%;
+}
+#logo #logoimg{
+    height: 70px;
+    width: 70px;
+    border-radius: 15px
+}
+#logo #logoname{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+#logo #logoname h3{
+    color: rgb(38, 7, 75);
+    font-size: xx-large;
+    justify-content: center;
+    letter-spacing: 5px;
+    
+}
+
+#logo #logoname h4{
+    color: rgb(148, 186, 9);
+    font-size: large;
+}
+
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+    justify-content: space-around;
+    background-color: rgb(32, 35, 34);
+    border-radius: 20px;
+    margin: 1%;
+    padding: 10px;
+}
+#menu ul li {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+#menu ul li a{
+    list-style: none;
+    font-size: 50px;
+    color:rgba(255, 0, 0, 0.55);
+}
+
+#loggedas {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    gap: 7px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: right;
+    cursor: pointer;
+}
+
+#loggedas #name-about{
+    font-size: large;
+}
+
+#loggedas img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+
+@media (min-width:200px) and (max-width : 600px){
+    .header{
+        max-width: 100%;
+        min-height: 100%;
+    }
+    #nav{
+        margin: 0%;
+        justify-content: space-around;
+    }
+    #logo,#loggedas{
+        position: sticky;
+        top: 0%; 
+        /* max-width:50%;  */
+        /* background-color: rgb(8, 8, 8);  */
+    }
+
+    #logo #logoimg{
+        height: 50px;
+        width: 50px;
+    }
+    #logo #logoname h3{
+        font-size: medium;
+        letter-spacing: 3px;
+    }
+    #logo #logoname h4{
+        font-size: x-small;
+    }
+    #loggedas #name-about{
+        font-size: small;
+    }
+    
+
+    #nav{
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #menu{
+        max-width: 100%;
+        position: fixed;
+        bottom: 0%;
+        left: -4%;
+        right: 0%;
+        /* max-width: max-content; */
+        padding: -0%;
+        margin: 0%;
+    }
+    #menu ul{
+        margin: 0px;
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    #menu ul li a{
+        gap: 0px;
+        list-style: block;
+        font-size: 30px;
+        margin: 5px;
+        padding: 0px;
+    }
+}
+
+
+
+
+/* #logo #logoname h5::after{
+    content: "";
+    color: black;
+    animation: conch 5s ease infinite;
+    width: 0;
+}
+@keyframes conch {
+    0%{
+        content: "Unconditional ";
+        width: fit-content;
+        color: brown;
+    }
+    30%{
+        content: " Limit less";
+        width: fit-content;
+        color: grey;
+    }
+    60%{
+        content: "Love & Yaari ";
+        width: fit-content;
+        color: green;
+    }
+    100%{
+        content: "I Love YI";
+        width: fit-content;
+        color: yellow;
+    }
+} */
