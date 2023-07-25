@@ -29,11 +29,11 @@ $name=$_SESSION['name'];
         </div>
         
         <div id="link">
-            <a href="profile.php">Profile</a>
-            <a href="dashboard.php">Dashboard</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="signout.php">Logout</a>
+            <a href="../profile/">Profile</a>
+            <a href="../dashboard/">Dashboard</a>
+            <a href="../nav/about.html">About</a>
+            <a href="../nav/contact.html">Contact</a>
+            <a href="../authentication/signout.php">Logout</a>
         </div>
                 
     </div>
