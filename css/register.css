@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    min-width: auto;
+    min-height: auto;
+    background: url(../images/ship_girl.jpg),linear-gradient(to left,rgb(247, 3, 3),rgb(217, 191, 41),rgb(32, 201, 52)); 
+    height: max-content;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+#rform {
+    margin-left: 250px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+fieldset{
+    background-color: rgba(235, 231, 227, 0.514);
+    height: fit-content;
+    width: 500px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#rform input{
+    background-color: rgba(211, 211, 211, 0.174);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px;
+    font-size:medium;
+    border-radius: 15px;
+    
+}
+#rform input:hover{
+    background-color: rgba(85, 79, 79, 0.375);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: medium;
+    border-color: aqua;   
+}
+
+#rform #rno{
+    text-transform:uppercase;
+}
+#ajju{
+    margin-top: 250px;
+    margin-right: 200px;
+    height: 500px;
+    width: 500px;
+}
+#alreg {
+    color: rgb(255, 17, 0);
+}
+a{
+    color:skyblue;
+    text-decoration: none;
+}
+
+#rform #signupbtn ,#rform #edu{
+    color: rgb(8, 33, 109);
+    font-size: x-large;
+    font-style:bold;
+    border-radius: 15px;
+    font-weight: 100px;
+    background-color: rgba(43, 65, 74, 0.43);
+}
+#rform #signupbtn:hover{
+    cursor:pointer;
+    color: rgb(52, 63, 95);
+    font-size: x-large;
+    font-weight: 500px;
+    background-color: rgba(78, 121, 138, 0.697);
+}
+legend{
+    display: none;;
+    font-size: 30px;
+}
+/* ---------------registration status----------------- */
+#poststatus{
+    background-image: linear-gradient(to left,rgb(247, 3, 3),rgb(217, 191, 41),rgb(32, 201, 52));
+    /* background-image: linear-gradient(to right bottom,red yellow green); */
+    /* background-color: lightcoral; */
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1% 27%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+

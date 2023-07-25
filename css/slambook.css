@@ -1,0 +1,116 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    font-family: cursive,'Times New Roman', Times, serif,cursive;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    justify-self: center;
+}
+#coverpage{
+    background-image: linear-gradient(to right bottom,yellow,green);
+    color: rgb(136, 157, 157);
+    margin: 2% 5% 2% 5%;
+    min-height: 80vh;
+    border: 3px solid red;
+    border-radius: 25px;
+}
+
+/* #coverpage::after{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    right: 5.2%;
+    bottom: 11.6%;
+    background:linear-gradient(135deg,white 0%,rgb(116, 174, 119) 60%, rgb(43, 133, 109) 40%,rgb(10, 201, 77) 20%, black 0%);
+    border-radius: 0.7em 0 0.7em 0;
+    box-shadow: -0.7em -0.7em 1em 0em rgb(86, 86, 76);
+    transition: 1s;
+}
+#coverpage:hover::after{
+    content: "OPEN";
+    text-align: justify;
+    width: 100px;
+    height: 100px;
+    cursor:pointer;
+} */
+
+
+#from::before{
+    content: "From:";
+    position: absolute;
+    rotate: 5deg;
+    top: -30%;
+    left: 15%;
+    color: rgb(0, 203, 135);
+    font-weight: 600;
+    font-size: xx-large;
+}
+#from h6::first-letter{
+    font-size: xx-large;
+    color: red;
+}
+#from{
+    position: absolute;
+    rotate: -20deg;
+    top: 20%;
+    left: 7.5%;
+    color:rgb(0,50,38) ;
+    max-height: 40%;
+    max-width: 40%;
+    text-shadow: 10px 7px 10px;
+}
+#from img{
+    box-shadow: 10px 7px 10px;
+    max-height: 150px;
+    max-width: 150px;
+    border: 5px dashed rgb(0, 58, 38);
+    border-radius: 5px;
+}
+#to::before{
+    content: "To:";
+    position: absolute;
+    rotate: 0deg;
+    top: -20%;
+    left: 15%;
+    color: rgb(47, 120, 97);
+    font-weight: 600;
+    font-size: xx-large;
+}
+#to h6::first-letter{
+    font-size: xx-large;
+    color: red;
+}
+#to{
+    position: absolute;
+    rotate: 20deg;
+    top: 45%;
+    left: 25%;
+    color:rgb(0,50,38) ;
+    max-height: 400px;
+    max-width: 400px;
+    text-shadow: 10px 7px 10px;
+}
+#to img{
+    max-height: 200px;
+    max-width: 200px;
+    border: 5px dashed rgb(0, 58, 38);
+    border-radius: 5px;
+    object-fit: fill;
+    box-shadow: 10px 7px 10px ;
+
+}
+
+
+
+/* PAGE @2 Start */
+

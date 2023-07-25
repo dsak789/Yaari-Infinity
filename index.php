@@ -24,7 +24,8 @@ $users="CREATE TABLE if not exists users(
     rollno varchar(50) not null unique,
     branch varchar(50) not null,
     year varchar(15) not null,
-    acc_verify_status text default 'pending'
+    email_otp varchar(10) not null,
+    email_status text default 'pending'
 
 )";
 
@@ -81,7 +82,7 @@ if(isset($_SESSION['userid'])){
     }
 }
 else{
-    header("Location:authentication/authentication.html");
+    header("Location:authentication/");
 }
 
 
