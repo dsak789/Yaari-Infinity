@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url(Imagespikachu.jpg),linear-gradient(to top right,orange,rgba(76, 211, 27, 0.704),yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 96vh;
+    
+}
+.logoname{
+    color: rgb(161, 184, 11);
+   text-align: center;
+   font-size: 45px; 
+   /* background-image: linear-gradient(to top right,orange,rgba(76, 211, 27, 0.704),yellow); */
+   /* width: fit-content; */
+   height: fit-content;
+   padding: 15px;
+   border :5px solid;
+   border-radius: 15px;
+   margin: 2% 07% 2% 7%;
+   margin-bottom: 20px;
+}
+#user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    /* width: max-content; */
+    background-color: rgba(27, 28, 13, 0.806);
+    padding: 30px;
+    margin: 3% 07% 3% 7%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#details{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    color: rgba(227, 252, 3, 0.632);
+}
+#details #dp{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#details2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+
+}
+#editmail{
+    display: none;
+}
+#editmail input{
+    padding: 10px;
+    margin: 3%;
+    min-width: max-content;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    color: aquamarine;
+    background-color: rgba(168, 192, 169, 0.288);
+}
+button{
+    padding: 10px;
+    margin: 0%;
+    min-width: max-content;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    color: aquamarine;
+    background-color: rgba(168, 192, 169, 0.288);
+}
+#email-verification, form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0%;
+    color: burlywood;
+}
+h1{
+    color: burlywood;
+}
+span{
+    color: red;
+}
+input{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(242, 255, 0);
+    margin:1%;
+    border-radius: 50px;
+    gap: 2px;
+    letter-spacing: 7px;
+}
+#otpinp{
+    text-align: center;
+    color: rgba(234, 200, 7, 0.906);
+    background-color: rgba(127, 255, 127, 0.63);
+    padding: 15px;
+    border-radius: 25px;
+    margin: 1%;
+}

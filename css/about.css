@@ -1,0 +1,78 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    color: aqua;
+}
+body{
+    background: url("bgimages/warior.jpg");
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right top,rgb(247, 166, 3),rgb(120, 20, 20),rgb(0, 0, 198));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-y: auto;
+    max-height: max-content;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(26, 25, 25, 0.418);
+    position:sticky;
+}
+.divlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;  
+}
+.divlogo img{
+    border-radius: 50px;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+}
+#loggedas{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+    padding: 10px;  
+    border-radius: 50%;
+    color: rgba(4, 202, 216, 0.724);
+
+}
+#loggedas img{
+    border-radius: 50px;
+    border-color: 10 solid aqua;
+}
+#link{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 15px;
+    margin-left: auto;
+}
+#link a{
+    padding: 15px;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:550;
+    border: 2px dashed burlywood;
+    background-color: rgb(169, 192, 42);
+    text-decoration: none;
+    border-radius: 50px;
+    width: max-content;
+}

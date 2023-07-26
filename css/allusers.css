@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../images/pink_hole.jpg"),linear-gradient(to right top,rgb(247, 166, 3),rgb(120, 20, 20),rgb(0, 0, 198));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-y: auto;
+    max-height: max-content;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(26, 25, 25, 0.406)
+}
+.divlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;  
+}
+#logo{
+    height: 50px;
+    width: 50px;
+}
+#link{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 15px;
+    margin-left: auto;
+}
+#link a{
+    padding: 15px;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:550;
+    border: 2px dashed burlywood;
+    background-color: rgb(169, 192, 42);
+    text-decoration: none;
+    border-radius: 50px;
+    width: max-content;
+}
+#profiledetails{
+    background-color: rgba(29, 116, 193, 0.365);
+    min-height: fit-content;
+    padding: 15px;
+    margin-top: 0%;
+    margin: 2% 20% 7% 20%;
+    border-radius: 15px;
+}
+.dp{
+    text-align: center;
+    height: 350px;
+    font-size: 50px;
+}
+#profilepic{
+    align-items: center;
+    
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: inset;
+}
+ul{
+    text-align: center;
+    font-size: 30px;
+    color: #b4b5e7;
+}
+li{
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    color:rgb(7, 15, 23);
+    background-color: #594e4e;
+    border-radius: 15px;
+    font-size: large;
+    list-style-type: none;
+    padding: 15px;
+}
+nav{
+    margin: 5% 30% 2% 30%;
+    background-color: #594e4e;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 150px;
+}
+table{
+    margin: 10px;
+    justify-items: center;
+    display: grid;
+    font-size: large;
+    padding: 15px;
+    empty-cells: hide;
+    overflow-y: auto;
+    background-color: #ff0505f2;
+    max-height: 700px;
+    border: 0px ;
+    background-image: linear-gradient(to left bottom,rgb(77, 38, 44),rgb(62, 54, 54),black,rgb(93, 31, 31));
+}
+th,td{
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px double;
+
+}   
+#dp{
+    display: block;
+    border: 2px solid rgba(12, 50, 139, 0.632);
+    border-radius: 5px;
+}
+
+
+
+
+
