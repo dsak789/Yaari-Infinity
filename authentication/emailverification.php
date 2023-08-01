@@ -150,9 +150,12 @@ $inpotp=$_POST["otp"];
     if($inpotp==$eotp){
         $up="UPDATE users SET email_otp='', email_status='verified' WHERE username='$email'";
         if(mysqli_query($con,$up)){
-            echo "verification success";
+            echo "verification success
+            <br> you will dericted to your dashboard
+            ";
+            echo "if not redirected :<a href='../dashboard/'>Go to Dashboard</a>";
             $_SESSION['emailstatus']="";
-            header("Location:../dashboard/");
+            // header("Location:../dashboard/");
         }
         else{
             echo mysqli_error($con);
