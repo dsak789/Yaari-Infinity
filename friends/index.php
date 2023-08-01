@@ -111,7 +111,7 @@ if($users=mysqli_query($con,$sel)){
                                     
                                     echo"
                                     <div id='addfriend'>
-                                    <img src='../$dp' id='dp' alt=' $nm' height='100' width='100' >
+                                    <img src='$dp' id='dp' alt=' $nm' height='100' width='100' >
                                     <div id='details'>
                                     <h3 id='name'>
                                     $nm 
@@ -125,7 +125,7 @@ if($users=mysqli_query($con,$sel)){
 
                                     echo"
                                     <div id='addfriend'>
-                                    <img src='../$dp' id='dp' alt=' $nm' height='100' width='100' >
+                                    <img src='$dp' id='dp' alt=' $nm' height='100' width='100' >
                                     <div id='details'>
                                     <h3 id='name'>
                                                 $nm
@@ -139,7 +139,7 @@ if($users=mysqli_query($con,$sel)){
 
                                     echo"
                                     <div id='addfriend'>
-                                    <img src='../$dp' id='dp' alt=' $nm' height='100' width='100' >
+                                    <img src='$dp' id='dp' alt=' $nm' height='100' width='100' >
                                     <div id='details'>
                                     <h3 id='name'>
                                                 $nm
@@ -211,7 +211,7 @@ if($users=mysqli_query($con,$sel)){
                                 echo"
                                 <div id='addfriend'>
                                 <div id='details'>
-                                <img src='../profiles/no profile.jpeg' id='dp' alt=' $' height='100' width='100' >
+                                <img src='../profiles/no_profile.jpeg' id='dp' alt=' $' height='100' width='100' >
                                 <h3 id='name'>
                                             You and $reqfrom | You both Became Friends!
                                         </h3>
@@ -246,7 +246,7 @@ if($users=mysqli_query($con,$sel)){
                                 echo"
                                 <div id='addfriend'>
                                 <div id='details'>
-                                <img src='../profiles/no profile.jpeg' id='dp' alt=' $reqname' height='100' width='100' >
+                                <img src='../profiles/no_profile.jpeg' id='dp' alt=' $reqname' height='100' width='100' >
                                 <h4 id='name'>
                                             $reqname sent you frnd Request!
                                         </h4>
