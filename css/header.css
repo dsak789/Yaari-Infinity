@@ -152,6 +152,25 @@ body{
     color:rgba(255, 0, 0, 0.55);
 }
 
+#fullmenu{
+    display: none;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    background-color: rgb(32, 35, 34);
+    padding: 1%;
+    border-radius: 25px;
+}
+#fullmenu ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+} 
+#fullmenu ul li{
+    list-style: none;
+    padding: 5px;
+}
+
 #loggedas {
     display: flex;
     flex-direction: row;

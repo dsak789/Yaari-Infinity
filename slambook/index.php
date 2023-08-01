@@ -50,9 +50,6 @@
                 <form action="" method="post">
                     
                     <?php 
-
-
-
                     $reqto=$_SESSION['roll'];
                      $curo="";
                     $getrequests1="SELECT * FROM friends WHERE receiver='$curo'or sender='$reqto'";
@@ -92,7 +89,7 @@
                 
                 $usrnm="Select Sm One to Dedicate";
                 $uid="EHO";
-                $udp="profiles/no profile.jpeg";
+                $udp="../profiles/no_profile.jpeg";
                 ?>
                 <script>
                     function choose(){
@@ -117,14 +114,14 @@
                         
                         $usrnm="Select Sm One to Dedicate";
                         $uid="";
-                        $udp="profiles/no profile.jpeg";
+                        $udp="../profiles/no_profile.jpeg";
                     }
                 }
                 else{
                     // echo"re";
                 }
                 ?>
-                <img src="../<?php echo $udp ?>" alt="<?php echo $usrnm ?>">
+                <img src="<?php echo $udp ?>" alt="<?php echo $usrnm ?>">
                 <h6> <?php echo  $usrnm;  
                 ?></h6>
             </div>

@@ -68,7 +68,7 @@ if($query){
 
         <?php 
 // $getpost="SELECT * FROM posts WHERE postuid='$id'";
-$getpost="SELECT * FROM posts ORDER BY posted_on desc";
+$getpost="SELECT * FROM posts ORDER BY id desc";
 $res=mysqli_query($con,$getpost);
 if($res){
     
