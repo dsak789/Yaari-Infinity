@@ -111,7 +111,7 @@ if($users=mysqli_query($con,$sel)){
                                     
                                     echo"
                                     <div id='addfriend'>
-                                    <img src='../$dp' id='dp' alt=' $nm' height='100' width='100' >
+                                    <img src='$dp' id='dp' alt=' $nm' height='100' width='100' >
                                     <div id='details'>
                                     <h3 id='name'>
                                     $nm 
