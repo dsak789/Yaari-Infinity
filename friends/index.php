@@ -81,6 +81,7 @@ if($users=mysqli_query($con,$sel)){
                             
                             
                             
+                            
                             if($id!=$allfriends['username']){
                                 $chfrs1="SELECT * FROM friends WHERE sender='$curo' and receiver='$uno'";
                                 $chfrs2="SELECT * FROM friends WHERE sender='$uno' and receiver='$curo'";
@@ -95,7 +96,7 @@ if($users=mysqli_query($con,$sel)){
                                     
                                     echo"
                                     <div id='addfriend'>
-                                    <img src='../$dp' id='dp' alt=' $nm' height='100' width='100' >
+                                    <img src='$dp' id='dp' alt=' $nm' height='100' width='100' >
                                     <div id='details'>
                                     <h3 id='name'>
                                     $nm 
@@ -191,7 +192,7 @@ if($users=mysqli_query($con,$sel)){
                                 echo"
                                 <div id='addfriend'>
                                 <div id='details'>
-                                <img src='../profiles/no profile.jpeg' id='dp' alt=' $' height='100' width='100' >
+                                <img src='../profiles/no_profile.jpeg' id='dp' alt=' $' height='100' width='100' >
                                 <h3 id='name'>
                                             You and $reqto | You both Became Friends!
                                         </h3>

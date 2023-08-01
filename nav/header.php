@@ -90,7 +90,7 @@
                         <h4><?php echo $nm ?></h4>
                         <p>Im Developer</p>
                     </div>
-                    <img src="" alt="<?php echo $nm ?>" height="50" width="50">
+                    <img src="<?php  echo $img ?>" alt="<?php echo $nm ?>" height="50" width="50">
                 </div>
             </div>
         </div>
