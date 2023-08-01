@@ -61,22 +61,36 @@
                     </div>   
                 </div>
                 <!-- </a> -->
+                <script>
+                    menu=()=>{
+                        document.getElementById("fullmenu").style.display='block';
+                    }
+                </script>
                 <div id="menu">
                     <ul>
                         <li><a href="../dashboard/"><ion-icon name="home"></ion-icon></a></li>
                         <li><a href="../friends/"><ion-icon name="people"></ion-icon></a></li>
                         <li><a href="../profile/" ><ion-icon name="person-circle"></ion-icon></a></li>
                         <li><a href="../slambook/" ><ion-icon name="book"></ion-icon></a></li>
-                        <li><a href="../nav/header.php" ><ion-icon name="grid"></ion-icon></a></li>
-                    </ul>
-                </div>
+                        <!-- <li><ion-icon name="grid" onclick="menu()"></ion-icon></li> -->
+                        <li id="more"><a onclick="menu()"><ion-icon name="grid"></ion-icon></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="fullmenu">
+                <ul>
+                    <li><a href="../nav/about.html">About</a></li>
+                    <li><a href="../nav/contact.html">Contact</a></li>
+                    <li><a href="../authentication/signout.php">LOGOUT</a></li>
+                </ul>
+            </div>
 
                 <div id="loggedas" title="<?php echo $nm="Dannana Sai Ajith Kumar"?>">
                     <div id="name-about">
                         <h4><?php echo $nm ?></h4>
                         <p>Im Developer</p>
                     </div>
-                    <img src="" alt="<?php echo $nm ?>" height="50" width="50">
+                    <img src="<?php  echo $img ?>" alt="<?php echo $nm ?>" height="50" width="50">
                 </div>
             </div>
         </div>

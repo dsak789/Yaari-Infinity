@@ -36,7 +36,7 @@ if($query){
             <form action="post.php" method="post" enctype="multipart/form-data" id="postform">
                 <div>
                     <img src="<?php  echo $img ?>" alt="<?php echo $nm?>" id="dp" height="70" width="70">
-                    <textarea name="writecontent" id="writecontent" cols="30" rows="4" placeholder="Write any thing or Add photo to Post" required></textarea>
+                    <textarea name="writecontent" id="writecontent" cols="62" rows="4" placeholder="Write any thing or Add photo to Post" required></textarea>
                     <label id="photo">
                         <img src="../images/icons8-camera-50.png" alt="ADD-PHOTO" id="photobtn">
                         <input type="file" name="postphoto" id="file"  accept=".jpeg , .jpg , .png">
@@ -68,7 +68,7 @@ if($query){
 
         <?php 
 // $getpost="SELECT * FROM posts WHERE postuid='$id'";
-$getpost="SELECT * FROM posts ORDER BY posted_on desc";
+$getpost="SELECT * FROM posts ORDER BY id desc";
 $res=mysqli_query($con,$getpost);
 if($res){
     
