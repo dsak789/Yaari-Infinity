@@ -34,7 +34,7 @@ $posts = "CREATE TABLE if not exists posts(
     post_dp varchar(255) not null,
     post_uid varchar(150) not null,
     posted_on varchar(100) not null,
-    post_phpto varchar(300) ,
+    post_photo varchar(300) ,
     posted_by varchar(150) not null,
     post_content text
 

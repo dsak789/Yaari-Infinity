@@ -85,7 +85,7 @@
                 </ul>
             </div>
 
-                <div id="loggedas" title="<?php echo $nm="Dannana Sai Ajith Kumar"?>">
+                <div id="loggedas" title="<?php echo $nm?>">
                     <div id="name-about">
                         <h4><?php echo $nm ?></h4>
                         <p>Im Developer</p>
