@@ -4,7 +4,7 @@
     if(isset($_SESSION['userid'])){
        
         $id=$_SESSION['userid'];
-        $name=$_SESSION['name'];
+        $nm=$_SESSION['name'];
         $select="SELECT * FROM users WHERE username= '$id'";
         $result=mysqli_query($con,$select);
         
@@ -19,7 +19,7 @@
     }
     else{
         echo "Sessions Expired";
-        echo "<a href='signin.html'><button>Signin</button></a>";
+        echo "<a href='../authentication/'><button>Signin</button></a>";
         sleep(2);
         header("Location:../index.html");
 
@@ -127,7 +127,7 @@
             </div>
         </div>
         <div id="page2">
-            <a href="../friends/" target="_blank" rel="noopener noreferrer">GOG GG</a>
+            <a href="../slambook/page1.php"  rel="noopener noreferrer">GOG GG</a>
         </div>
     </div>
 </body>
