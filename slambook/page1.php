@@ -19,9 +19,17 @@
 
         <div class="coverpage">
             <?php
+            $b="right";
             for($i=2;$i<=7;$i++){
                 $j=$i*2;
-                echo "<marquee behavior='scroll' direction='right' scrollamount='$j'>Yaar's SLAM</marquee>";
+                if ($b=="right"){
+                    $b="left";
+                }
+                else{
+                    $b="right";
+                    
+                }
+                echo "<marquee behavior='scroll' direction='$b' scrollamount='$j'>Yaari's SLAM</marquee>";
             }
             ?>
             <div class="page">

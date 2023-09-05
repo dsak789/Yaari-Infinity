@@ -39,7 +39,7 @@
 <body>
     <div class="main">
     <?php include("../nav/header.php") ?>
-        <div id="logo">Dedicate a Slam to your LoVeD oNe</div>
+        <!-- <div id="logo">Dedicate a Slam to your LoVeD oNe</div> -->
         <div id="coverpage">
             
             <div id="from">
